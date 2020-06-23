@@ -25,13 +25,13 @@
             
         <div class="row flex-wrap">
             <div class="col">
-                <img class="rounded float-left d-block" src="hawaiiWavesLeft.jpg" alt="Hawaii Left">
+                <img class="rounded float-left d-block" src="Photos/hawaiiWavesLeft.jpg" alt="Hawaii Left">
             </div>
             <div class="col">
-                <img id="center" class="rounded mx-auto d-block" src="meSnoqFalls.jpg" alt="me">
+                <img id="center" class="rounded mx-auto d-block" src="Photos/meSnoqFalls.jpg" alt="me">
             </div>
             <div class="col">
-                <img class="rounded float-right d-block" src="hawaiiWavesRight.jpg" alt="Hawaii Right">
+                <img class="rounded float-right d-block" src="Photos/hawaiiWavesRight.jpg" alt="Hawaii Right">
             </div>      
         </div>
 

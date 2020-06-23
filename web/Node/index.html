@@ -2,21 +2,27 @@
 <html>
 
 <head>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script>
-        $(document).ready(function () {
-            $("button").click(function () {
-                $("#response").load("http://localhost:8888/getData");
-            });
-        });
-    </script>
+  
 </head>
 
 <body>
-    <div id="response">
-        <h1>Click the button and see the response from the local server</h1>
-    </div>
-    <button type="button">Click me</button>
+    
+
+    <script>
+        var body = document.getElementById('body').innerText;
+        var jsonData = JSON.parse(body);
+        console.log(jsonData);
+
+
+
+        jsonData.forEach(element => {
+            var h1 = document.createElement('h1').innerText = element['name'];
+            var h2 = document.createElement('h2').innerText = element['desc'];
+            document.getElementById("body").appendChild(h1);
+            document.getElementById("body").appendChild(h2);
+        });
+    </script>
+
 </body>
 
 </html>
